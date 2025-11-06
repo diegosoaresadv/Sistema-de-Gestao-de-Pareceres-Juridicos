@@ -15,6 +15,7 @@ from pathlib import Path
 from datetime import datetime
 import base64
 import re
+import hmac
 
 
 # Configuração da página
@@ -24,6 +25,89 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded"
 )
+
+
+# Função para carregar credenciais do arquivo de segredos
+def load_credentials():
+    """Carrega as credenciais do arquivo secrets.json"""
+    secrets_file = Path("secrets.json")
+    
+    if not secrets_file.exists():
+        st.error("""
+        ⚠️ **Arquivo de credenciais não encontrado!**
+        
+        Crie um arquivo chamado `secrets.json` na mesma pasta do aplicativo com o seguinte formato:
+        
+        ```json
+        {
+            "username": "seu_usuario",
+            "password": "sua_senha"
+        }
+        ```
+        
+        **IMPORTANTE:** Adicione `secrets.json` ao seu `.gitignore` para não compartilhar suas credenciais!
+        """)
+        st.stop()
+    
+    try:
+        with open(secrets_file, 'r', encoding='utf-8') as f:
+            credentials = json.load(f)
+            
+        if "username" not in credentials or "password" not in credentials:
+            st.error("❌ O arquivo secrets.json deve conter os campos 'username' e 'password'")
+            st.stop()
+            
+        return credentials["username"], credentials["password"]
+        
+    except json.JSONDecodeError:
+        st.error("❌ Erro ao ler o arquivo secrets.json. Verifique se o formato JSON está correto.")
+        st.stop()
+    except Exception as e:
+        st.error(f"❌ Erro ao carregar credenciais: {str(e)}")
+        st.stop()
+
+
+# Função de autenticação
+def check_password():
+    """Retorna `True` se o usuário inseriu a senha correta."""
+    
+    # Carrega as credenciais do arquivo
+    valid_username, valid_password = load_credentials()
+    
+    def password_entered():
+        """Verifica se a senha inserida está correta."""
+        if hmac.compare_digest(st.session_state["username"], valid_username) and \
+           hmac.compare_digest(st.session_state["password"], valid_password):
+            st.session_state["password_correct"] = True
+            del st.session_state["password"]  # Remove a senha da sessão
+            del st.session_state["username"]  # Remove o usuário da sessão
+        else:
+            st.session_state["password_correct"] = False
+
+    # Retorna True se a senha já foi validada
+    if st.session_state.get("password_correct", False):
+        return True
+
+    # Mostra tela de login
+    st.markdown("""
+    <div style="text-align: center; padding: 3rem 0;">
+        <h1>⚖️ Sistema de Gestão de Pareceres Jurídicos</h1>
+        <h3>Volpe Advogados Associados | Cliente: Unimed Cuiabá</h3>
+        <p style="margin-top: 2rem; font-size: 1.2em;">Por favor, faça login para acessar o sistema</p>
+    </div>
+    """, unsafe_allow_html=True)
+    
+    col1, col2, col3 = st.columns([1, 2, 1])
+    
+    with col2:
+        st.text_input("Usuário", key="username", on_change=password_entered)
+        st.text_input("Senha", type="password", key="password", on_change=password_entered)
+        
+        if "password_correct" in st.session_state and not st.session_state["password_correct"]:
+            st.error("😕 Usuário ou senha incorretos")
+    
+    return False
+
 
 # CSS customizado com cores da Volpe
 st.markdown("""
@@ -708,6 +792,10 @@ def pagina_arquivos_html(pasta_html):
 
 def main():
     """Função principal do aplicativo"""
+    
+    # Verifica autenticação antes de mostrar o conteúdo
+    if not check_password():
+        st.stop()  # Para a execução se não estiver autenticado
     
     # Header
     col1, col2 = st.columns([3, 1])
