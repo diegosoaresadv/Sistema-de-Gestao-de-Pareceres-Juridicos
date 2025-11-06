@@ -1,6 +1,0 @@
-streamlit>=1.28.0
-markdown>=3.4.0
-
-# Nota: Se tiver erro com pyarrow no Mac, use:
-# pip install streamlit --no-deps
-# pip install altair protobuf tornado watchdog
