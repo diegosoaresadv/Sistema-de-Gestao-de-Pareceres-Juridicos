@@ -18,6 +18,14 @@ import re
 import hmac
 
 
+# Remove do histórico do Git
+git filter-branch --force --index-filter \
+  "git rm --cached --ignore-unmatch secrets.json" \
+  --prune-empty --tag-name-filter cat -- --all
+
+# Força o push
+git push origin --force --all
+
 # Configuração da página
 st.set_page_config(
     page_title="Pareceres Jurídicos - Unimed Cuiabá",
