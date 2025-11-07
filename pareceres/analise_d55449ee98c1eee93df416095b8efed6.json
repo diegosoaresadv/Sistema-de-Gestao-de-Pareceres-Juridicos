@@ -1,0 +1,24 @@
+{
+  "timestamp": "2025-11-04T01:09:48.143872",
+  "hash": "d55449ee98c1eee93df416095b8efed6",
+  "resultado": {
+    "numero_cnj": "1017569-90.2023.4.01.3600",
+    "parte_contraria": "AGÊNCIA NACIONAL DE SAÚDE SUPLEMENTAR - ANS",
+    "natureza": "EXECUÇÃO FISCAL",
+    "objeto": "Cobrança de multa por infração administrativa - multa pecuniária da Lei 9.656/1998",
+    "posicao_cliente": "EXECUTADO",
+    "valor_causa": "R$ 56.513,16",
+    "pedidos": [
+      "Pagamento do débito inscrito em dívida ativa",
+      "Correção monetária, juros e multa de mora",
+      "Encargo legal de 20% sobre o valor total da dívida"
+    ],
+    "valor_contingencia": "R$ 56.513,16",
+    "fase": "Suspensa em razão de parcelamento extrajudicial",
+    "probabilidade_perda": "PROVÁVEL",
+    "custas": "Não informado no documento",
+    "deposito_integral": "Não",
+    "valor_depositado": "Não informado no documento",
+    "observacoes": "Processo suspenso devido a parcelamento extrajudicial ordinário em 60 parcelas de R$ 1.008,57. Primeira parcela paga. Parcelamento número 5.002.000115/24-21. Origem: Auto de Infração n. 673362020 de 19/11/2020. Processo administrativo 33910.036016/2020-07. Valor principal R$ 33.000,00 com multa de mora de 20% e correção SELIC."
+  }
+}

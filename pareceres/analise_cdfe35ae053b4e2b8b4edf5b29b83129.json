@@ -1,0 +1,25 @@
+{
+  "timestamp": "2025-11-04T03:30:26.039952",
+  "hash": "cdfe35ae053b4e2b8b4edf5b29b83129",
+  "resultado": {
+    "numero_cnj": "1013548-86.2019.8.11.0015",
+    "parte_contraria": "ISABELA MUNHOZ CERVANTES",
+    "natureza": "AÇÃO INDENIZATÓRIA POR ERRO MÉDICO COM PEDIDO CAUTELAR DE EXIBIÇÃO DE DOCUMENTOS",
+    "objeto": "Indenização por danos morais e materiais decorrentes de alegado erro médico que resultou na morte da mãe da autora",
+    "posicao_cliente": "Réu",
+    "valor_causa": "R$ 115.938,02",
+    "pedidos": [
+      "Condenação ao pagamento de indenização por danos morais no valor de R$ 100.000,00",
+      "Condenação ao pagamento de indenização por danos materiais no valor de R$ 15.938,02",
+      "Exibição de prontuários médicos e documentos correlatos",
+      "Notificação do CRM/MT para providências cabíveis"
+    ],
+    "valor_contingencia": "R$ 115.938,02",
+    "fase": "Contestação apresentada - aguardando impugnação e demais atos processuais",
+    "probabilidade_perda": "REMOTA",
+    "custas": "Não informado no documento",
+    "deposito_integral": "Não",
+    "valor_depositado": "Não informado no documento",
+    "observacoes": "Contestação apresentada pela Santa Casa de Misericórdia alegando prescrição quinquenal, ausência de erro médico, e que a morte decorreu de complicações naturais da doença (tumor retroperitoneal maligno). Prontuário médico foi juntado aos autos. Processo tramita na 4ª Vara Cível de Sinop/MT."
+  }
+}

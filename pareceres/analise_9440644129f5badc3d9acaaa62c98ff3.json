@@ -1,0 +1,25 @@
+{
+  "timestamp": "2025-11-03T23:15:00.407903",
+  "hash": "9440644129f5badc3d9acaaa62c98ff3",
+  "resultado": {
+    "numero_cnj": "0031175-23.2011.8.11.0041",
+    "parte_contraria": "GABRIEL ALMEIDA PRADO CRUZ",
+    "natureza": "AÇÃO DE INDENIZAÇÃO POR DANOS MATERIAL E MORAL",
+    "objeto": "Contágio por meningite que ocorreu nas dependências da Clínica Femina por negligência e imperícia dos médicos Requeridos, que teriam exposto o Autor a ambiente contaminado e não diagnosticado a doença em tempo hábil para evitar as sequelas",
+    "posicao_cliente": "Réu",
+    "valor_causa": "R$ 102.000,00",
+    "pedidos": [
+      "Pensão vitalícia no valor de R$ 2.000,00 mensais",
+      "Pagamento de Plano de Saúde",
+      "Indenização por dano moral no valor de R$ 100.000,00",
+      "Honorários advocatícios de 20% sobre o valor da condenação"
+    ],
+    "valor_contingencia": "R$ 102.000,00",
+    "fase": "APELAÇÃO CÍVEL",
+    "probabilidade_perda": "Não informado no documento",
+    "custas": "Não informado no documento",
+    "deposito_integral": "Não",
+    "valor_depositado": "Não informado no documento",
+    "observacoes": "Processo em 2º grau tramitando na Primeira Câmara de Direito Privado. Autor é menor impúbere representado pelos genitores. Caso envolve alegada negligência médica resultando em sequelas neurológicas graves (tetraplegia, paralisia cerebral). Múltiplas partes requeridas incluindo FEMINA PRESTADORA DE SERVIÇOS MÉDICO HOSPITALAR LTDA e médicos. Beneficiário da justiça gratuita."
+  }
+}

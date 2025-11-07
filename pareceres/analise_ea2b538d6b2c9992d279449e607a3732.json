@@ -1,0 +1,24 @@
+{
+  "timestamp": "2025-10-29T14:28:48.131632",
+  "hash": "ea2b538d6b2c9992d279449e607a3732",
+  "resultado": {
+    "numero_cnj": "0019171-80.2016.4.01.3600",
+    "parte_contraria": "AGÊNCIA NACIONAL DE SAÚDE SUPLEMENTAR - ANS",
+    "natureza": "EXECUÇÃO FISCAL",
+    "objeto": "Multas e demais Sanções - Infração Administrativa",
+    "posicao_cliente": "EXECUTADO",
+    "valor_causa": "R$ 286.607,81",
+    "pedidos": [
+      "Cobrança de multa por infração administrativa",
+      "Pagamento de débito inscrito em dívida ativa",
+      "Encargos legais de 20% sobre o valor total da dívida"
+    ],
+    "valor_contingencia": "R$ 286.607,81",
+    "fase": "Execução suspensa por parcelamento administrativo (PRD 2017)",
+    "probabilidade_perda": "PROVÁVEL",
+    "custas": "Não informado no documento",
+    "deposito_integral": "Não",
+    "valor_depositado": "Não informado no documento",
+    "observacoes": "Processo suspenso em razão da adesão ao Programa de Regularização de Débitos (PRD 2017). Executada firmou termo de parcelamento em 120 parcelas. Primeira parcela de R$ 674.360,58 e demais 119 parcelas de R$ 20.630,94. Débito consolidado em R$ 3.371.802,91. Processo migrado do sistema físico para o PJe em 2022."
+  }
+}

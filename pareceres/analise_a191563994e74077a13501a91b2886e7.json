@@ -1,0 +1,27 @@
+{
+  "timestamp": "2025-11-04T03:42:42.994455",
+  "hash": "a191563994e74077a13501a91b2886e7",
+  "resultado": {
+    "numero_cnj": "1002537-65.2020.8.11.0002",
+    "parte_contraria": "JUCARA SCHAURICH DA SILVA",
+    "natureza": "AÇÃO DE INDENIZAÇÃO DE DANOS MORAIS, ESTÉTICOS E MATERIAIS C/C TUTELA DE URGÊNCIA",
+    "objeto": "Indenização por alegado erro médico em cirurgia de mama com colocação de prótese",
+    "posicao_cliente": "Réu",
+    "valor_causa": "R$ 375.000,00",
+    "pedidos": [
+      "Danos morais no valor de R$ 150.000,00",
+      "Danos estéticos no valor de R$ 200.000,00",
+      "Danos materiais - cirurgia reparadora de R$ 25.000,00 ou R$ 9.800,00",
+      "Medicamentos e outros custos médicos",
+      "Honorários advocatícios de 20%",
+      "Custas processuais"
+    ],
+    "valor_contingencia": "R$ 375.000,00",
+    "fase": "Contestação apresentada - aguardando impugnação",
+    "probabilidade_perda": "REMOTA",
+    "custas": "Não informado no documento",
+    "deposito_integral": "Não",
+    "valor_depositado": "Não informado no documento",
+    "observacoes": "Cliente é médico cirurgião plástico que atuou como auxiliar na cirurgia. Contestação alega ilegitimidade passiva, ausência de nexo causal e que contratura capsular é complicação conhecida, não erro médico. Processo tramita em segredo de justiça. Perícia médica requerida."
+  }
+}

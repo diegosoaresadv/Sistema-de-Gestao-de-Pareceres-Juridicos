@@ -1,0 +1,25 @@
+{
+  "timestamp": "2025-11-04T00:15:40.038910",
+  "hash": "d1936523cb4cd94b6e951f0020d3ccd2",
+  "resultado": {
+    "numero_cnj": "1035761-08.2019.8.11.0041",
+    "parte_contraria": "UNIMED CUIABÁ COOPERATIVA DE TRABALHO MÉDICO",
+    "natureza": "AÇÃO ANULATÓRIA DE ATO ADMINISTRATIVO MUNICIPAL",
+    "objeto": "Anulação do Auto de Infração nº 010386/010387 e multa administrativa no valor de R$ 263.509,59 aplicada pela Prefeitura de Cuiabá por obra de ampliação em desacordo com projeto aprovado",
+    "posicao_cliente": "Réu",
+    "valor_causa": "R$ 393.417,96",
+    "pedidos": [
+      "Anulação do AUTO DE INFRAÇÃO Nº 010386/010387 e decisões de 1º e 2ª instância",
+      "Aplicação da pena de advertência em substituição à multa",
+      "Redução judicial da multa por desproporcionalidade e caráter confiscatório",
+      "Condenação da requerida aos ônus sucumbenciais"
+    ],
+    "valor_contingencia": "R$ 393.417,96",
+    "fase": "Primeira instância - processo em andamento",
+    "probabilidade_perda": "POSSÍVEL",
+    "custas": "Não informado no documento",
+    "deposito_integral": "Não",
+    "valor_depositado": "Não informado no documento",
+    "observacoes": "Processo tramita na Vara Especializada do Meio Ambiente. Autor alega vícios no processo administrativo, violação ao contraditório e ampla defesa, reparação voluntária das irregularidades e caráter confiscatório da multa. Pedido de liminar ou antecipação de tutela deferido. Última distribuição em 15/10/2024."
+  }
+}

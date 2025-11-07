@@ -1,0 +1,26 @@
+{
+  "timestamp": "2025-11-04T02:20:19.053927",
+  "hash": "cf429c4879ce398e7b442ce00c739677",
+  "resultado": {
+    "numero_cnj": "1003104-62.2021.8.11.0002",
+    "parte_contraria": "JACKELINE MENDES DE CARVALHO SANTOS, FATIMA GOMES DE CARVALHO e VANESSA MENDES DOS SANTOS ALVES",
+    "natureza": "AÇÃO ORDINÁRIA DE INDENIZAÇÃO POR DANOS MATERIAIS E MORAIS EM DECORRÊNCIA DE ERRO MÉDICO",
+    "objeto": "Indenização por danos materiais e morais decorrentes de alegado erro médico que resultou no óbito do paciente Odit Mendes dos Santos",
+    "posicao_cliente": "Réu",
+    "valor_causa": "R$ 1.048.929,42",
+    "pedidos": [
+      "Condenação solidária por danos morais no valor de R$ 1.000.000,00",
+      "Condenação por danos materiais no valor de R$ 48.929,42",
+      "Inversão do ônus da prova",
+      "Realização de perícia judicial",
+      "Condenação em ônus sucumbenciais"
+    ],
+    "valor_contingencia": "R$ 1.048.929,42",
+    "fase": "Instrução processual - perícia médica em andamento",
+    "probabilidade_perda": "POSSÍVEL",
+    "custas": "Não informado no documento",
+    "deposito_integral": "Não",
+    "valor_depositado": "Não informado no documento",
+    "observacoes": "Processo envolve alegação de erro médico no tratamento de COVID-19 com uso de hidroxicloroquina em paciente cardiopata. Há perícia médica em andamento. Processo tramita em segredo de justiça. Paciente faleceu após 5 horas e 20 minutos de internação no Hospital Amecor."
+  }
+}

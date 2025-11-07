@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-11-04T01:51:38.105300",
+  "hash": "c85e0e66a431e78656b093eae6cc5269",
+  "resultado": {
+    "numero_cnj": "1016663-37.2022.4.01.3600",
+    "parte_contraria": "AGÊNCIA NACIONAL DE SAÚDE SUPLEMENTAR - ANS",
+    "natureza": "EXECUÇÃO FISCAL",
+    "objeto": "Cobrança de multa por infração administrativa - multa pecuniária da Lei 9.656/1998",
+    "posicao_cliente": "Executado",
+    "valor_causa": "R$ 142.623,36",
+    "pedidos": [
+      "Pagamento da dívida com juros, multa de mora e encargos indicados na Certidão de Dívida Ativa",
+      "Garantia da execução através de depósito, fiança bancária, seguro garantia ou nomeação de bens à penhora"
+    ],
+    "valor_contingencia": "R$ 142.623,36",
+    "fase": "Suspensa em razão de parcelamento do débito",
+    "probabilidade_perda": "PROVÁVEL",
+    "custas": "Não informado no documento",
+    "deposito_integral": "Não",
+    "valor_depositado": "Não informado no documento",
+    "observacoes": "Processo suspenso devido ao parcelamento extrajudicial ordinário nº 5.002.000106/24-30 em 60 parcelas. Parcelamento deferido em 17/05/2024. Executado já pagou 5 parcelas do parcelamento. Valor original da multa: R$ 88.000,00. Auto de infração nº 44386/2019. Processo administrativo 33910.000706/2019-86. Executado citado em 31/07/2024."
+  }
+}

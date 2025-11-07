@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-10-29T16:43:42.917272",
+  "hash": "e2c40abfeae53b0c473c6b9dcd996a18",
+  "resultado": {
+    "numero_cnj": "1011149-74.2020.4.01.3600",
+    "parte_contraria": "AGÊNCIA NACIONAL DE SAÚDE SUPLEMENTAR - ANS",
+    "natureza": "EXECUÇÃO FISCAL",
+    "objeto": "Cobrança de multas e demais sanções administrativas",
+    "posicao_cliente": "EXECUTADO",
+    "valor_causa": "R$ 1.112.699,44",
+    "pedidos": [
+      "Pagamento do débito inscrito com correção monetária, juros e multa de mora",
+      "Encargo legal de 20% sobre o valor total da dívida"
+    ],
+    "valor_contingencia": "R$ 1.112.699,44",
+    "fase": "Execução suspensa por parcelamento",
+    "probabilidade_perda": "PROVÁVEL",
+    "custas": "Não informado no documento",
+    "deposito_integral": "Não",
+    "valor_depositado": "R$ 1.133.729,45",
+    "observacoes": "Processo suspenso por 1 ano devido ao parcelamento extrajudicial deferido em 60 parcelas de R$ 23.724,67. Valores bloqueados via SISBAJUD mantidos até quitação integral. Primeira parcela já paga. Parcelamento número 5.002.000037/24-19 formalizado."
+  }
+}
